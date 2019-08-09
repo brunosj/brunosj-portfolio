@@ -17,41 +17,40 @@ timeout=3000
   contact = "bruno@pinewaxrecords.com"
 
 [[params.social]]
-  name = "Instagram"
-  icon = "instagram"
-  url = "https:instagram.com/viziriziv"
+  name = "Contact"
+  icon = "mail"
+  url = "mailto:bruno@pinewarecords.com"
   
 [[params.social]]
   name = "SoundCloud"
   icon = "music"
   url = "https://soundcloud.com/pinewaxrecords/"
   
+  [[params.social]]
+  name = "Facebook"
+  icon = "facebook"
+  url = "https://facebook.com/pinewaxrecords/"
+  
 [[params.social]]
-  name = "Twitter"
-  icon = "twitter"
-  url = "https://twitter.com/bruno__sj"
-
-[[params.social]]
-  name = "LinkedIn"
-  icon = "linkedin"
-  url = "https://linkedin.com/in/brunosj/"
-
-[[params.social]]
-  name = "GitHub"
-  icon = "github"
-  url = "https://github.com/brunosj"
+  name = "Instagram"
+  icon = "instagram"
+  url = "https:instagram.com/viziriziv"
 
 [[params.introduction.paragraph]]
-  text="""I am a musician, DJ and radio host. I am running a small record label, <a href="https://pinewaxrecords.com">Pinewax Records</a>, where we produce original music, organise events,
+  text="""I am a musician and DJ based in Berlin, Germany. I am part of a small record label, <a href="https://soundcloud.com/pinewaxrecords">Pinewax Records</a>, where we produce original music, organise events,
   and release different types of musical content (mixtapes, livesets, radio shows, etc.). I also compose music for film soundtracks and various other media projects.
-   """
+  Additionally, I am a data enthusiast and am currently exploring ways to connect the world of data/AI and music.
+  """
+  
+[[params.publications]]
+  year="Production/Composition"
 
 [[params.publications]]
-  year="Film"
+  subsection="Film"
 
  [[params.publications.paper]]
     name = "Wer reinkommt, ist drin"
-    authors = "Leonie Englert"
+    authors = "Leonie Englert [video password: dffb2019]"
     dest  = "2019"
     link = "https://vimeo.com/320490605"
     
@@ -86,8 +85,28 @@ timeout=3000
     link = "https://vimeo.com/75984242"
 
 [[params.publications]]
-  year="Collaborations"
+  subsection="Podcasts"
 
+ [[params.publications.paper]]
+    name = "Wohnhaft im Verborgenen"
+    authors = "Chair for Urban Design and Urbanization - Institute of Architecture TU-Berlin"
+    dest  = "2019"
+    
+ [[params.publications.paper]]
+    name = "Kulturzug Berlin-Wrocław"
+    authors = "Kollektiv Raumstation"
+    dest  = "2018"
+    link = "https://berlin.raumstation.org/post/174432390050/das-dazwischen-episodische-erkundungen-zwischen"
+  
+ [[params.publications.paper]]
+    name = "Cafe Amerikana (Jingle + Episode 01-13)"
+    authors = "Polis180"
+    dest  = "2017-2019"
+    link = "https://polis180.org/"
+  
+
+[[params.publications]]
+  subsection="Collaborations"
 
  [[params.publications.paper]]
     name = "mowtif & Apfel Gee - Gaggia City"
@@ -112,63 +131,51 @@ timeout=3000
     authors = "Instruments: Fender Rhodes, Wurlitzer, Piano, Synthesizers"
     dest  = "2014"
     link = "https://thisisequinox.bandcamp.com/album/night-heist"
-    
-     [[params.publications.paper]]
-    name = "Equinox on Tape - SIDE A"
-    authors = "Instruments: Fender Rhodes, Piano, Synthesizers"
-    dest  = "2013"
-    link = "https://thisisequinox.bandcamp.com/album/side-a"
-    
-       [[params.publications.paper]]
-    name = "Reggae Dubline Corp. (RDC) - Say It Again"
-    authors = "Instruments: Hammond B3, Fender Rhodes"
-    dest  = "2011"
-    link = "https://enjoyrdc.bandcamp.com/album/say-it-again-single"
-    
-       [[params.publications.paper]]
-    name = "Reggae Dubline Corp. (RDC) - Broadcastin' Vibes"
-    authors = "Instruments: Hammond B3, Fender Rhodes, Wurlitzer, Turntables"
-    dest  = "2009"
-    link = "https://enjoyrdc.bandcamp.com/album/broadcastin-vibes"
-    
+		
 [[params.publications]]
-  year="DJ (as Vizir)"
+  year="Deejaying (as Vizir)"
 
- [[params.publications.paper]]
-		name = "Pressure (Liveset)"
-		authors = ""
-		dest  = "2019"
-		link = "https://soundcloud.com/pinewaxrecords/vizir-pressure"
-		
- [[params.publications.paper]]
-		name = "Live at BRN Festival (Liveset)"
-		authors = ""
-		dest  = "2018"
-		link = "https://soundcloud.com/pinewaxrecords/vizir-brn2018"
-		
- [[params.publications.paper]]
-		name = "Live at Kiosk Radio Brussels (Liveset)"
-		authors = ""
-		dest  = "2018"
-		link = "https://soundcloud.com/pinewaxrecords/vizir-kioskradio"
-		
+[[params.publications]]
+  subsection="Mixtapes"
+
   [[params.publications.paper]]
-		name = "Oscillate I & II (Mixtape)"
+		name = "Oscillate I & II"
 		authors = ""
 		dest  = "2018"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-oscillate"
 		
   [[params.publications.paper]]
-		name = "Bruk Brisé (Mixtape)"
+		name = "Bruk Brisé"
 		authors = ""
 		dest  = "2017"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-bruk"
 		
   [[params.publications.paper]]
-		name = "39 (Mixtape)"
+		name = "39"
 		authors = ""
 		dest  = "2016"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-39"
+		
+[[params.publications]]
+  subsection="Livesets"
+
+ [[params.publications.paper]]
+		name = "Pressure"
+		authors = ""
+		dest  = "2019"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-pressure"
+
+ [[params.publications.paper]]
+		name = "Live at BRN Festival"
+		authors = ""
+		dest  = "2018"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-brn2018"
+		
+ [[params.publications.paper]]
+		name = "Live at Kiosk Radio Brussels"
+		authors = ""
+		dest  = "2018"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-kioskradio"
 		
   [[params.publications.paper]]
 		name = "Alarm (Liveset)"
@@ -177,36 +184,24 @@ timeout=3000
 		link = "https://soundcloud.com/pinewaxrecords/vizir-alarm"
 		
   [[params.publications.paper]]
-		name = "Apérispliff (Liveset)"
+		name = "Apérispliff"
 		authors = ""
 		dest  = "2015"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-aperispliff"
 
   [[params.publications.paper]]
-		name = "Digespliff (Liveset)"
+		name = "Digespliff"
 		authors = ""
 		dest  = "2015"
-		link = "https://soundcloud.com/pinewaxrecords/vizir-digespliff"		
+		link = "https://soundcloud.com/pinewaxrecords/vizir-digespliff"	
+
+[[params.publications]]
+  subsection="Radio Shows"
+  
+	[[params.publications.paper]]
+		name = "Pinewax Radio - Radio 93"
+		authors = ""
+		dest  = "2016-ongoing"
+		link = "https://soundcloud.com/pinewaxrecords/sets/radio-93"
 		
-	[[params.projects]]
-	
-	[[params.projects.project]]
-		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
-		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = "https://ablogpost.com"
-
- [[params.projects.project]]
-		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = ""
-
- [[params.projects.project]]
-		name = "Integer eget aliquet nibh praesent tristique magna"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = ""
-		blog_link = "https://ablogpost.com"
+		

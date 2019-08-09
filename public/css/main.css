@@ -162,7 +162,7 @@ ul.flat li {
 }
 
 ul {
-  list-style: disc inside;
+  list-style: none;
 }
 
 .introduction ul li {
@@ -289,7 +289,18 @@ ul {
 
 .year {
   font-size: 20px;
+  margin-bottom: -0.5em;
+  font-weight: bolder;
+  background-color: #000000;
+  color: #ffffff;
+  font-variant: small-caps;
+}
+
+.subsection {
+  font-size: 17px;
+  margin-top: 1em;
   margin-bottom: -.6em;
+  font-style: italic;
 }
 
 .project {
@@ -297,7 +308,7 @@ ul {
 }
 
 .publications {
-  margin-left: -.5em;
+  margin-left: -.3em;
 }
 
 .code_blog {

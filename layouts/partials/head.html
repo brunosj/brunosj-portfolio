@@ -19,16 +19,15 @@
 		<nav class="nav social">
 			<ul class="flat">
 				{{- range $index, $key := .Site.Params.Social -}}
-				<a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				<a href="{{ $key.url }}" target="_blank" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
 				{{- end -}}
 				{{ if or (.Site.Params.blog) (.Site.Params.cv_name) }}
 				|
 				{{- with .Site.Params.blog -}}
-				<a href="{{ . }}" class="blog_cv">[blog]</a>
+				<a href="{{ . }}" target="_blank" class="blog_cv">[blog]</a>
 				{{- end -}}
 
 				{{ with .Site.Params.cv_name }}
-				<a href="{{ . }}" class="blog_cv">[cv]</a>
 				{{ end }}
 				{{ end }}
 			</ul>

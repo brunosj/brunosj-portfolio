@@ -1,14 +1,15 @@
 <div class="introduction">
-	<h4>Musical Production/Composition</h4>
+	<h4></h4>
 
 	{{- range $index, $publications := .Site.Params.publications -}}
 	<div class="year">{{ $publications.year }}</div>
-
+	<div class="subsection">{{ $publications.subsection }}</div>
+	
 	<ul>
 		{{ range $elem_index, $publication := $publications.paper }}
 		<li>
 			{{ if $publication.link }}
-			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, </a>
+			<a href="{{ $publication.link }}" target="_blank" class="publications"> {{ $publication.name }}, </a>
 			{{ else }}
 			<p class="publications"> {{ $publication.name }}, </p>
 			{{ end }}
