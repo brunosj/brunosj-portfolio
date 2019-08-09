@@ -17,41 +17,37 @@ timeout=3000
   contact = "bruno@pinewaxrecords.com"
 
 [[params.social]]
-  name = "Instagram"
-  icon = "instagram"
-  url = "https:instagram.com/viziriziv"
+  name = "Contact"
+  icon = "mail"
+  url = "mailto:bruno@pinewarecords.com"
   
 [[params.social]]
   name = "SoundCloud"
   icon = "music"
   url = "https://soundcloud.com/pinewaxrecords/"
   
+  [[params.social]]
+  name = "Facebook"
+  icon = "facebook"
+  url = "https://facebook.com/pinewaxrecords/"
+  
 [[params.social]]
-  name = "Twitter"
-  icon = "twitter"
-  url = "https://twitter.com/bruno__sj"
-
-[[params.social]]
-  name = "LinkedIn"
-  icon = "linkedin"
-  url = "https://linkedin.com/in/brunosj/"
-
-[[params.social]]
-  name = "GitHub"
-  icon = "github"
-  url = "https://github.com/brunosj"
+  name = "Instagram"
+  icon = "instagram"
+  url = "https:instagram.com/viziriziv"
 
 [[params.introduction.paragraph]]
-  text="""I am a musician, DJ and radio host. I am running a small record label, <a href="https://pinewaxrecords.com">Pinewax Records</a>, where we produce original music, organise events,
+  text="""I am a musician and DJ based in Berlin, Germany. I am part of a small record label, <a href="https://soundcloud.com/pinewaxrecords">Pinewax Records</a>, where we produce original music, organise events,
   and release different types of musical content (mixtapes, livesets, radio shows, etc.). I also compose music for film soundtracks and various other media projects.
-   """
+  Additionally, I am a data enthusiast and am currently exploring ways to connect the world of data/AI and music.
+  """
 
 [[params.publications]]
   year="Film"
 
  [[params.publications.paper]]
     name = "Wer reinkommt, ist drin"
-    authors = "Leonie Englert"
+    authors = "Leonie Englert [video password: dffb2019]"
     dest  = "2019"
     link = "https://vimeo.com/320490605"
     
@@ -113,33 +109,22 @@ timeout=3000
     dest  = "2014"
     link = "https://thisisequinox.bandcamp.com/album/night-heist"
     
-     [[params.publications.paper]]
-    name = "Equinox on Tape - SIDE A"
-    authors = "Instruments: Fender Rhodes, Piano, Synthesizers"
-    dest  = "2013"
-    link = "https://thisisequinox.bandcamp.com/album/side-a"
-    
-       [[params.publications.paper]]
-    name = "Reggae Dubline Corp. (RDC) - Say It Again"
-    authors = "Instruments: Hammond B3, Fender Rhodes"
-    dest  = "2011"
-    link = "https://enjoyrdc.bandcamp.com/album/say-it-again-single"
-    
-       [[params.publications.paper]]
-    name = "Reggae Dubline Corp. (RDC) - Broadcastin' Vibes"
-    authors = "Instruments: Hammond B3, Fender Rhodes, Wurlitzer, Turntables"
-    dest  = "2009"
-    link = "https://enjoyrdc.bandcamp.com/album/broadcastin-vibes"
     
 [[params.publications]]
   year="DJ (as Vizir)"
-
+  
+ [[params.publications.paper]]
+		name = "Radio 93 (Pinewax Radio Show)"
+		authors = ""
+		dest  = "2016-ongoing"
+		link = "https://soundcloud.com/pinewaxrecords/sets/radio-93"
+		
  [[params.publications.paper]]
 		name = "Pressure (Liveset)"
 		authors = ""
 		dest  = "2019"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-pressure"
-		
+
  [[params.publications.paper]]
 		name = "Live at BRN Festival (Liveset)"
 		authors = ""
@@ -188,25 +173,3 @@ timeout=3000
 		dest  = "2015"
 		link = "https://soundcloud.com/pinewaxrecords/vizir-digespliff"		
 		
-	[[params.projects]]
-	
-	[[params.projects.project]]
-		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
-		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = "https://ablogpost.com"
-
- [[params.projects.project]]
-		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = "https://coderepo.com"
-		blog_link = ""
-
- [[params.projects.project]]
-		name = "Integer eget aliquet nibh praesent tristique magna"
-		description  = ""
-		project_page = "https://myprojecthomepage.com"
-		code_link = ""
-		blog_link = "https://ablogpost.com"
