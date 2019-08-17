@@ -136,8 +136,35 @@ timeout=3000
   year="Deejaying (as Vizir)"
 
 [[params.publications]]
-  subsection="Mixtapes"
+  subsection="Mixtapes"    
+    
+[[params.publications]]
+  year="DJ (as Vizir)"
+  
+ [[params.publications.paper]]
+		name = "Radio 93 (Pinewax Radio Show)"
+		authors = ""
+		dest  = "2016-ongoing"
+		link = "https://soundcloud.com/pinewaxrecords/sets/radio-93"
+		
+ [[params.publications.paper]]
+		name = "Pressure (Liveset)"
+		authors = ""
+		dest  = "2019"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-pressure"
 
+ [[params.publications.paper]]
+		name = "Live at BRN Festival (Liveset)"
+		authors = ""
+		dest  = "2018"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-brn2018"
+		
+ [[params.publications.paper]]
+		name = "Live at Kiosk Radio Brussels (Liveset)"
+		authors = ""
+		dest  = "2018"
+		link = "https://soundcloud.com/pinewaxrecords/vizir-kioskradio"
+		
   [[params.publications.paper]]
 		name = "Oscillate I & II"
 		authors = ""
