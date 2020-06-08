@@ -39,7 +39,6 @@ timeout=3000
 [[params.introduction.paragraph]]
   text="""I am a musician and DJ based in Berlin, Germany. I am part of a small record label, <a href="https://soundcloud.com/pinewaxrecords">Pinewax Records</a>, where we produce original music, organise events,
   and release different types of musical content (mixtapes, livesets, radio shows, etc.). I also compose music for film soundtracks and various other media projects.
-  Additionally, I am a data enthusiast and am currently exploring ways to connect the world of data/AI and music.
   """
   
 [[params.publications]]
