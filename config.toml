@@ -8,8 +8,6 @@ timeout=3000
 [params]
   subtitle= "DJ/Composer"
   interests= ""
-  cv_name= "St-JacquesB_Resume_2019.pdf"
-  blog="https://brunosj.netlify.com/"
 
 [[params.affilation]]
   name = "Pinewax Records"
@@ -61,9 +59,9 @@ timeout=3000
     
  [[params.publications.paper]]
     name = "DayJob"
-    authors = "Felicitas Hammerstein"
+    authors = "Felicitas Hammerstein [video password: AJR2019]"
     dest  = "2018"
-    link = ""
+    link = "https://vimeo.com/315804935"
     
  [[params.publications.paper]]
     name = "Pascal Reif – Wroclaw"
@@ -136,7 +134,13 @@ timeout=3000
 
 [[params.publications]]
   subsection="Mixtapes"    
-		
+
+   [[params.publications.paper]]
+		name = "Vizglottis - Twice as Nice"
+		authors = ""
+		dest  = "2020"
+		link = "https://soundcloud.com/pinewaxrecords/vizglottis-twice-as-nice"
+
   [[params.publications.paper]]
 		name = "Oscillate I & II"
 		authors = ""
@@ -198,9 +202,9 @@ timeout=3000
   subsection="Radio Shows"
   
 	[[params.publications.paper]]
-		name = "Pinewax Radio - Radio 93"
+		name = "Pinewax Radio (live from THF Radio)"
 		authors = ""
 		dest  = "2016-ongoing"
-		link = "https://soundcloud.com/pinewaxrecords/sets/radio-93"
+		link = "https://soundcloud.com/pinewaxrecords/sets/pinewaxradio"
 		
 		
